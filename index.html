@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Temporal-Oriented Recipe for Transferring Large Vision-Language Model to Video Understanding" />
+  <meta name="keywords" content="VisionLanguage, VideoAI, TemporalUnderstanding, LVLMs" />
+  <title>Beyond “Aha!” — Meta‑Ability Alignment for Reasoning Models</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet" />
+  <link rel="stylesheet" href="./static/css/bulma.min.css" />
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css" />
+  <link rel="stylesheet" href="./static/css/index.css" />
+  <link rel="icon" href="./static/images/favicon.png" />
+
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+</head>
+<body>
+  <!-- Header / Title -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">Temporal-Oriented Recipe for Transferring Large Vision-Language Model to Video Understanding</h1>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"><a href="nguyentthong.github.io" target="_blank"><strong>Thong Nguyen</strong></a><sup>1</sup>,</span>
+                <span class="author-block"><a href="#" target="_blank">Zhiyuan Hu</a><sup>1</sup>,</span>
+                <span class="author-block"><a href="#" target="_blank">Xu Lin</a><sup>1</sup>,</span>
+                <span class="author-block"><a href="#" target="_blank">Cong-Duy Nguyen</a><sup>2</sup>,</span>
+                <span class="author-block"><a href="https://www.comp.nus.edu.sg/~ngsk/" target="_blank">See-Kiong Ng</a><sup>1</sup>,</span>
+                <span class="author-block"><a href="https://tuanluu.github.io/" target="_blank">Luu Anh Tuan</a><sup>2</sup>,</span>
+              </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>National University of Singapore,</span>
+              <span class="author-block"><sup>2</sup>Nanyang Technological University</span>
+            </div>
+
+            <!-- Links -->
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://github.com/zhiyuanhubj/Meta-Ability-Alignment/blob/main/Paper.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/zhiyuanhubj/Meta-Ability-Alignment/blob/main/Paper.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="ai ai-arxiv"></i></span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/zhiyuanhubj/Meta-Ability-Alignment" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://x.com/ZhiyuanCS/status/1922734609634296004" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="far fa-images"></i></span>
+                    <span>Twitter (X)</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Abstract -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>Recent years have witnessed outstanding advances of large vision-language models (LVLMs). In order to tackle video understanding, most of them depend upon their implicit temporal understanding capacity. As such, they have not deciphered important components that contribute to temporal understanding ability, which might limit the potential of these LVLMs for video understanding. In this work, we conduct a thorough empirical study to demystify crucial components that influence the temporal understanding of LVLMs. Our empirical study reveals that significant impacts are centered around the intermediate interface between the visual encoder and the large language model. Building on these insights, we propose a temporal-oriented recipe that encompasses temporal-oriented training schemes and an upscaled interface. Our final model developed using our recipe significantly enhances previous LVLMs on standard video understanding tasks.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results & Framework Figures -->
+  <section class="section is-light">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Temporal-Oriented Recipe</h2>
+      <figure class="image">
+        <img src="./static/images/recipe.png" alt="Illustration of Temporal-Oriented Recipe to Transfer Large Vision-Language Model to Video Understanding." />
+      </figure>
+      <br />
+      <h2 class="title is-3 has-text-centered">Key Results</h2>
+      <figure class="image">
+        <img src="./static/images/results.png" alt="Performance tables showing consistent gains from temporal-oriented recipe." />
+        <figcaption class="has-text-centered">Table&nbsp;1: Temporal-oriented recipe boosts video understanding performance at both 7B and 13B scales.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  
+  <!-- Related Links (optional) -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{nguyen2025temporal,
+  title={Temporal-Oriented Recipe for Transferring Large Vision-Language Model to Video Understanding},
+  author={Nguyen, Thong and Hu, Zhiyuan and Lin, Xu and Nguyen, Cong-Duy and Ng, See-Kiong and Tuan, Luu Anh},
+  journal={arXiv preprint arXiv:2505.12605},
+  year={2025}
+}</code></pre>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" target="_blank" href="https://arxiv.org/pdf/2505.12605"><i class="fas fa-file-pdf"></i></a>
+        <a class="icon-link" target="_blank" href="https://github.com/your‑repo"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>This website is licensed under a <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution‑ShareAlike 4.0 International License</a>.</p>
+            <p>You are free to reuse the <a target="_blank" href="https://github.com/nerfies/nerfies.github.io">source code</a>; please include a link back in the footer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
